@@ -1,4 +1,6 @@
-package com.devsuperior.dsdeliveri.controllers;
+
+package com.dsdeliver.controllers;
+
 
 import java.util.List;
 
@@ -11,16 +13,17 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devsuperior.dsdeliveri.dto.ProductDTO;
 import com.devsuperior.dsdeliveri.services.ProductService;
 
-@RestController
 @RequestMapping(value = "/products")
+@RestController
 public class ProductController {
 	
 	@Autowired
-	private ProductService service;
-	
+	private ProductService productService;
+
 	@GetMapping
 	public ResponseEntity<List<ProductDTO>> findAll(){
-		List<ProductDTO> list = service.findAll();
+		List<ProductDTO> list = productService.findAll();
 		return ResponseEntity.ok().body(list);
+		
 	}
 }
