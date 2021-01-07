@@ -1,13 +1,13 @@
-package com.devsuperior.dsdeliveri;
+package com.devsuperior.dsdeliver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DsdeliveriApplication {
+public class ProjetoSemanaDevSuperiorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DsdeliveriApplication.class, args);
+		SpringApplication.run(ProjetoSemanaDevSuperiorApplication.class, args);
 	}
 
 }
