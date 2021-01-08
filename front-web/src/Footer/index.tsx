@@ -8,9 +8,6 @@ function Footer() {
     <footer className="main-footer">
         App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
         <div className="footer-icons">
-          <a href="https://github.com/beatrizalvesfel" target="_new"> 
-            <GithubIcon />
-          </a>
 
           <a href="https://www.facebook.com/ouroborosdesign.uno" target="_new"> 
           <FacebookIcon />
@@ -19,6 +16,11 @@ function Footer() {
           <a href="https://www.instagram.com/ouroborosdesign_/" target="_new"> 
             <InstagramIcon />
           </a>
+
+          <a href="https://github.com/beatrizalvesfel" target="_new"> 
+            <GithubIcon />
+          </a>
+          
         </div>
     </footer>
   );
