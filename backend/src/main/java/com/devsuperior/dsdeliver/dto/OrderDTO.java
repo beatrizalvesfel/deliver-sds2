@@ -19,28 +19,31 @@ public class OrderDTO implements Serializable {
     private Double longitude;
     private Instant moment;
     private OrderStatus status;
+    private Double total;
 
     private List<ProductDTO> productDTOS = new ArrayList<>();
 
     public OrderDTO(){}
 
-    public OrderDTO(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status) {
+    public OrderDTO(Long id, String address, Double latitude, Double longitude, Instant moment, OrderStatus status, Double total) {
         this.id = id;
         this.address = address;
         this.latitude = latitude;
         this.longitude = longitude;
         this.moment = moment;
         this.status = status;
+        this.total = total;
     }
 
-    public OrderDTO(Order order){
-        this.id = order.getId();
-        this.address = order.getAddress();
-        this.latitude = order.getLatitude();
-        this.longitude = order.getLongitude();
-        this.moment = order.getMoment();
-        this.status = order.getStatus();
-        this.productDTOS = order.getProducts().stream().map(product -> new ProductDTO(product)).collect(Collectors.toList());
+    public OrderDTO(Order entity){
+        this.id = entity.getId();
+        this.address = entity.getAddress();
+        this.latitude = entity.getLatitude();
+        this.longitude = entity.getLongitude();
+        this.moment = entity.getMoment();
+        this.status = entity.getStatus();
+        total = entity.getTotal();
+        this.productDTOS = entity.getProducts().stream().map(product -> new ProductDTO(product)).collect(Collectors.toList());
     }
 
     public Long getId() {
@@ -91,7 +94,15 @@ public class OrderDTO implements Serializable {
         this.status = status;
     }
 
-    public List<ProductDTO> getProductDTOS() {
+    public Double getTotal() {
+		return total;
+	}
+
+	public void setTotal(Double total) {
+		this.total = total;
+	}
+
+	public List<ProductDTO> getProductDTOS() {
         return productDTOS;
     }
 }
