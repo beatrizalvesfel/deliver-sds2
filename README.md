@@ -1,6 +1,5 @@
 <p align="center">
-  <img alt="Ds Deliver" title="Ds Deliver" src="./assets/logo.png" />
-</p>
+  ## Ds Deliver
 
 <h1 align="center">
   Faça seu pedido que entregamos pra você!
