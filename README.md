@@ -1,6 +1,5 @@
-<p align="center">
-  ## Ds Deliver
-</p>
+ # Ds Deliver
+  
 <h1 align="center">
   Faça seu pedido que entregamos pra você!
 </h1>
