@@ -54,7 +54,6 @@ A aplicação consiste em coletar os pedidos dos produtos dos clientes de acordo
 ## 🎨 Layout
 
 Os layouts da aplicação estão disponíveis no Figma: [Web e Mobile](https://www.figma.com/file/sClob8ddj4smsWZdYPRj2E/DSDeliver05)
-
 <br />
 
 # Sobre o projeto
