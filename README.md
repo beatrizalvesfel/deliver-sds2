@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Ds Deliver" title="Ds Deliver" src="./src/assets/logo.png" />
+  <img alt="Ds Deliver" title="Ds Deliver" src="../src/assets/logo.png" />
 </p>
 
 <h1 align="center">
