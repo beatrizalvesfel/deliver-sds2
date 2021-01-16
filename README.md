@@ -28,10 +28,10 @@
     />
   </a>
 
-  <a href="https://github.com/beatrizalvesfel/happy/commits/main">
+  <a href="https://github.com/beatrizalvesfel/dsdeliver/commits/main">
     <img
       alt="GitHub last commit"
-      src="https://img.shields.io/github/last-commit/beatrizalvesfel/happy?color=29B6D1&style=flat-square"
+      src="https://img.shields.io/github/last-commit/beatrizalvesfel/dsdeliver?color=29B6D1&style=flat-square"
     />
   </a>
 
